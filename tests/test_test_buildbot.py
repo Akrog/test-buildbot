@@ -15,7 +15,6 @@ import unittest
 from test_buildbot import test_buildbot
 
 
-
 class TestTest_buildbot(unittest.TestCase):
 
     def setUp(self):
@@ -25,4 +24,5 @@ class TestTest_buildbot(unittest.TestCase):
         pass
 
     def test_000_something(self):
+        assert(False)
         pass
